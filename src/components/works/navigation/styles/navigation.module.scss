@@ -1,0 +1,37 @@
+@import '../../../common/variables.scss';
+//-----------------------------------------
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------styles
+
+.list {
+    @extend %displayFlexDirection;
+    gap: 15px;
+}
+
+.item {
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    @extend %linkUserButtons;
+}
+
+.menu {
+    color: #fff;
+    ;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    @include adaptive-value('padding-top', 20, 10, 1920);
+    @include adaptive-value('padding-bottom', 20, 10, 1920);
+
+}

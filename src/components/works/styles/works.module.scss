@@ -1,0 +1,30 @@
+@import '../../common/variables.scss';
+//-----------------------------------------
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------styles
+
+.works {
+    background: #232debb9;
+
+    transition: all 0.3s ease 0s;
+    height: 100%;
+    perspective: 1000px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.container {
+    @extend %displayComplect;
+    padding: 40px 40px;
+
+}
