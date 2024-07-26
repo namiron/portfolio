@@ -8,22 +8,38 @@
 //-----------------------------------------vars
 
 
-//-----------------------------------------styles
+//-----------------------------------------styles//-----------------------------------
 
+@keyframes slide-in {
+    0% {
+        transform: rotate3d(-360deg)
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: rotate3d(360deg)
+    }
+}
+
+//-----------------------------------
 
 .cubeBox {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+        height: 400px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.3s ease;
+    animation: slide-in 2s;
+        animation-delay: 0.3s;
 }
 
 .side {
-    color: #fff;
+
     width: 100%;
     height: 100%;
-    border: 2px solid #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,30 +49,36 @@
     backface-visibility: hidden;
 }
 
+.image {
+    width: 100%;
+    height: 100%;
+    @extend %images;
+}
 .top {
-    transform: rotateX(90deg) translateZ(150px);
+    transform: rotateX(90deg) translateZ(200px);
 }
 
 .button {
-    transform: rotateX(-90deg) translateZ(150px);
+    transform: rotateX(-90deg) translateZ(200px);
 }
 
 .left {
-    transform: rotateY(-90deg) translateZ(150px);
+    background: #ffffff49;
+        transform: rotateY(-90deg) translateZ(200px);
 }
 
 .right {
-    transform: rotateY(90deg) translateZ(150px);
+    transform: rotateY(90deg) translateZ(200px);
 }
 
 .front {
-    transform: translateZ(150px);
+    transform: translateZ(200px);
 }
 
 .back {
-    transform: rotateY(180deg) translateZ(150px) rotateZ(180deg);
+    transform: rotateY(180deg) translateZ(200px) rotateZ(180deg);
 }
 
 .title {
-    color: #fff;
+
 }

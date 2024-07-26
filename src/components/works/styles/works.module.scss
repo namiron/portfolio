@@ -11,11 +11,10 @@
 //-----------------------------------------styles
 
 .works {
-    background: #232debb9;
-
     transition: all 0.3s ease 0s;
     height: 100%;
     perspective: 1000px;
+    @include adaptive-value('padding-bottom', 220, 100, 1920);
 }
 
 .wrapper {

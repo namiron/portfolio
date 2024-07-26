@@ -1,0 +1,35 @@
+@import '../../common/variables.scss';
+//-----------------------------------------
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------vars
+
+.contacts {
+    position: relative;
+    width: 100%;
+    z-index: 20;
+}
+
+.container {
+    @extend %container;
+    padding-left: 0;
+}
+
+.list {
+    @extend %display;
+    @include adaptive-value('gap', 10, 5, 1920);
+}
+
+.link {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.naw {
+    @extend %display;
+    gap: 10px;
+    padding-left: 20px;
+}

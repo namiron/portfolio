@@ -1,10 +1,13 @@
+@import './components/common/variables.scss';
 * {
 	padding: 0;
 	margin: 0;
 	border: 0;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	
 }
+
 
 *::before,
 *::after {
@@ -38,6 +41,7 @@ body {
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+
 }
 
 
@@ -150,26 +154,136 @@ body._touch .menu__link._active .menu__sub-list {
 	order: 1;
 }
 
+//-------------------------------------------vars
 body {
 	font-family: "Nunito";
+	line-height: 1.2;
+		position: relative;
 }
 
 body[data-theme='dark'] {
+	transition: all 0.5s ease 0s;
 	background: rgb(48, 46, 46);
-	color: #ffff;
-	cursor: pointer;
+	color: #d9d9d9;
+		border: #000;
 
 	a {
 		color: #fff;
 	}
+#particles-js {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+	background: #d9d9d9;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 80px;
+
+	font-size: .8em;
+	text-align: left;
+	text-indent: 4px;
+	line-height: 14px;
+	padding-bottom: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.js-count-particles {
+	font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+	-webkit-user-select: none;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#stats {
+	border-radius: 3px 3px 0 0;
+	overflow: hidden;
+}
+
+.count-particles {
+	border-radius: 0 0 3px 3px;
+}
 }
 
 body[data-theme='light'] {
-	background: #fff;
+	position: relative;
+		transition: all 0.5s ease 0s;
+		background: #d9d9d9;
+		border: #000;
 	color: #000;
-	cursor: pointer;
 
 	a {
 		color: #000
 	}
+#particles-js {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+	background: #d9d9d9;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 80px;
+
+	font-size: .8em;
+	text-align: left;
+	text-indent: 4px;
+	line-height: 14px;
+	padding-bottom: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.js-count-particles {
+	font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+	-webkit-user-select: none;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#stats {
+	border-radius: 3px 3px 0 0;
+	overflow: hidden;
+}
+
+.count-particles {
+	border-radius: 0 0 3px 3px;
+}
+}
+
+#root {
+	z-index: 1;
 }

@@ -9,3 +9,21 @@
 
 
 //-----------------------------------------styles
+.home {
+    @include adaptive-value('padding-top', 25, 10, 1920);
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    @extend %container;
+}
+
+.firstScreen {
+    @include adaptive-value('margin-bottom', 160, 80, 1440);
+}
+
+.about {}
+
+.works {}

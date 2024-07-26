@@ -3,8 +3,10 @@ import React from 'react'
 import worksStyle from './styles/works.module.scss'
 import Cube from './cub/Cube';
 import Navigation from './navigation/Navigation';
-import Content from '../content/Content';
-
+import Data from '../data/Data';
+import { Element } from 'react-scroll';
+import { mobile, width } from '../common/constants';
+import List from './list/List';
 
 
 const Works = () => {
@@ -15,16 +17,23 @@ const Works = () => {
     //-----------------------------------
 
     return (
-        <div className={worksStyle.works}>
-            <div className={worksStyle.wrapper}>
-                <div className={worksStyle.container}>
-                    <Cube rotateX={rotateX} rotateY={rotateY} />
-                    <Navigation setRotateY={setRotateY} setRotateX={setRotateX} />
-                </div>
-                <Content rotateX={rotateX} rotateY={rotateY} />
-            </div>
+        <Element name='works' className={worksStyle.works}>
+            {
+                width >= mobile ? (
+                    <div className={worksStyle.wrapper}>
+                        <div className={worksStyle.container}>
+                            <Cube rotateX={rotateX} rotateY={rotateY} />
+                            <Navigation setRotateY={setRotateY} setRotateX={setRotateX} />
+                        </div>
+                        <Data rotateX={rotateX} rotateY={rotateY} />
+                    </div>
+                )
+                    :
+                    <List />
+            }
 
-        </div>
+
+        </Element>
     )
 }
 

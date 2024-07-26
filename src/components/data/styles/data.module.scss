@@ -1,0 +1,24 @@
+@import '../../common/variables.scss';
+//-----------------------------------------
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------styles
+
+.content {
+    position: relative;
+}
+
+.description {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.description.exiting {
+    opacity: 0;
+}

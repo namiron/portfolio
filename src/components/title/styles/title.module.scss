@@ -1,0 +1,47 @@
+@import '../../common/variables.scss';
+//-----------------------------------------
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------styles
+.heading {
+    @include adaptive-value('padding-top', 20, 10, 1920);
+    @extend %displayFlexDirection;
+    @include adaptive-value('gap', 20, 10, 1920);
+    align-items: flex-end;
+    margin-left: auto;
+    max-width: 650px;
+    transform: translateX();
+
+    @media (max-width:768px) {
+        max-width: none;
+    }
+}
+
+.title {
+    @include adaptive-value(' margin-top', -30, 0, 1920);
+    text-align: right;
+    text-transform: uppercase;
+    @include adaptive-font(70, 40, 1440);
+
+    @media (max-width:768px) {
+        text-align: left;
+    }
+}
+
+.subTitle {
+    max-width: 450px;
+    text-align: right;
+
+    @media (max-width:768px) {
+        max-width: none;
+        text-align: left;
+    }
+}
+
+//--------------------------------heading

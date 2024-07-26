@@ -1,0 +1,48 @@
+@import '../../common/variables.scss';
+//-----------------------------------------
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------styles
+
+.about {
+    position: relative;
+    z-index: -1;
+}
+
+.aboutText {
+    max-width: 900px;
+    text-align: center;
+    @include adaptive-font(20, 14, 1440);
+    @extend %display;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    @include adaptive-value('padding-bottom', 140, 70, 1440);
+
+    img {
+
+        max-width: 110px;
+        max-height: 40px;
+        border-radius: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        @extend %images;
+    }
+}
+
+.firstPart {
+    text-wrap: nowrap;
+}
+
+
+.image {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+}

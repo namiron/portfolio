@@ -1,0 +1,74 @@
+@import '../../common/variables.scss';
+//-----------------------------------------
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------styles
+
+.footer {
+    @include adaptive-value('padding-bottom', 25, 10, 1440);
+}
+
+.container {
+    @extend %displayFlexDirection;
+    align-items: center;
+    @include adaptive-value('gap', 50, 25, 1440);
+}
+
+.heading {}
+
+.bigText {
+    position: relative;
+    z-index: -1;
+    @include adaptive-font(130, 60, 1440);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mail {
+    text-align: right;
+}
+
+.gmail {
+    position: relative;
+    z-index: 3;
+    @include adaptive-font(30, 15, 1440);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.links {
+    position: relative;
+    z-index: 3;
+    @extend %displayComplect;
+    gap: 20px;
+}
+
+.github {
+    @extend %display;
+}
+
+.linkedin {
+    padding-left: 10px;
+    @extend %display;
+}
+
+
+.linksSocial {
+    @extend %display;
+}
+
+.linkKiska {
+    @extend %display;
+    gap: 20px;
+}
+
+.icon {
+
+    font-size: 40px;
+}

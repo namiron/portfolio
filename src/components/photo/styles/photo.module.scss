@@ -1,0 +1,78 @@
+@import '../../common/variables.scss';
+//-----------------------------------------
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------vars
+
+
+//-----------------------------------------styles
+.photoContainer {
+
+    @include adaptive-value('margin-top', 50, 25, 1440);
+
+}
+
+.helloWorld {
+    @include adaptive-value('padding-bottom', 10, 5, 1440);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    max-width: 370px;
+
+
+}
+
+.location {
+    position: relative;
+    text-transform: uppercase;
+    padding-left: 15px;
+
+    &::after {
+        content: '';
+        position: absolute;
+
+        top: 10%;
+        left: 0%;
+        width: 10px;
+        height: 10px;
+        background: rgb(23, 217, 23);
+        border-radius: 50%;
+    }
+
+}
+
+.contentBox {
+    display: flex;
+    align-items: flex-end;
+    @include adaptive-value('gap', 10, 5, 1440);
+
+    @media (max-width:768px) {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+}
+
+.imageContainer {
+    position: relative;
+    z-index: 3;
+    max-width: 370px;
+    @extend %images;
+
+
+}
+
+.name {
+    text-transform: uppercase;
+    @include adaptive-font(50, 25, 1440);
+    max-width: 215px;
+
+    @media (max-width:768px) {
+        max-width: none;
+    }
+}

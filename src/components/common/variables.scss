@@ -2,12 +2,15 @@
 
 //=====================================variables
 $maxWidth: 1440px;
-$containerWidth: 1140px;
+$containerWidth: 1400px;
 $mainColor: #F79E1B;
 $cartTextColor: #686868;
 $containerHome: 1440px;
 $ContainerNavigation: 1440px;
 
+$textColor: #fff;
+
+$bgColor: rgb(48, 46, 46);
 //=====================================variables
 
 //=======================================================================global
@@ -191,19 +194,7 @@ $ContainerNavigation: 1440px;
   }
 }
 
-@keyframes slide-in {
-  0% {
-    transform: translateX(-100%);
-  }
 
-  50% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(100%);
-  }
-}
 
 @keyframes link-in {
   0% {
@@ -327,7 +318,6 @@ $ContainerNavigation: 1440px;
       bottom: 0%;
       left: 50%;
       transform: translateX(-50%);
-      /* Центрирование относительно родительского элемента */
       width: 0%;
       height: 3px;
       background: white;
@@ -344,7 +334,7 @@ $ContainerNavigation: 1440px;
   cursor: pointer;
   font-weight: 400;
   font-size: 16px;
-  transition: width 0.3s ease 0s, color 0.6s ease 0s;
+  transition: width 0.3s ease 0s;
   padding: 10px 10px 10px 0px;
 
   &::before {
@@ -360,7 +350,7 @@ $ContainerNavigation: 1440px;
 
   @media (any-hover: hover) {
     &:hover {
-      transition: width 0.3s ease 0s, color 0.6s ease 0s;
+      transition: width 0.3s ease 0s, color 0.3s ease 0s;
       color: $mainColor;
 
       &::before {
@@ -393,7 +383,7 @@ $ContainerNavigation: 1440px;
   border: none;
   cursor: pointer;
   overflow: hidden;
-  /* Чтобы полосы не выходили за пределы кнопки */
+
   outline: none;
   transition: background 0.3s ease;
 
