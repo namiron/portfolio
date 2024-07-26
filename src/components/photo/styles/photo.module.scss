@@ -10,7 +10,7 @@
 
 //-----------------------------------------styles
 .photoContainer {
-@include adaptive-value('margin-top', -70, 25, 1440);
+@include adaptive-value('margin-top', -5, 70, 1440);
 }
 
 .helloWorld {
@@ -67,6 +67,7 @@
 
 .name {
     text-transform: uppercase;
+    @include adaptive-value('margin-bottom', -10, 0, 1440);
     @include adaptive-font(50, 25, 1440);
     max-width: 215px;
 
