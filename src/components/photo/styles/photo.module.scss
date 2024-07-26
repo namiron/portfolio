@@ -10,7 +10,7 @@
 
 //-----------------------------------------styles
 .photoContainer {
-    @include adaptive-value('padding-top', 45, 25, 1440);
+    @include adaptive-value('margin-top', -1, 30, 1440);
 }
 
 .helloWorld {
