@@ -10,7 +10,7 @@
 
 //-----------------------------------------styles
 .photoContainer {
-@include adaptive-value('margin-top', -5, 70, 1440);
+    @include adaptive-value('padding-top', 45, 25, 1440);
 }
 
 .helloWorld {
@@ -20,7 +20,7 @@
 .heading {
     display: flex;
     justify-content: space-between;
-    max-width: 370px;
+    max-width: 320px;
 
 
 }
@@ -57,17 +57,19 @@
 }
 
 .imageContainer {
+display: flex;
+    align-items: baseline;
     position: relative;
     z-index: 3;
-    max-width: 370px;
+    max-width: 320px;
     @extend %images;
 
 
 }
 
 .name {
+    line-height: 1;
     text-transform: uppercase;
-    @include adaptive-value('margin-bottom', -10, 0, 1440);
     @include adaptive-font(50, 25, 1440);
     max-width: 215px;
 
