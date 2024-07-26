@@ -10,6 +10,7 @@
 
 //-----------------------------------------styles
 .photoContainer {
+@include adaptive-value('margin-top', -70, 25, 1440);
 }
 
 .helloWorld {
