@@ -28,12 +28,12 @@
 
 .cubeBox {
     width: 400px;
-        height: 400px;
+    height: 400px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.3s ease;
     animation: slide-in 2s;
-        animation-delay: 0.3s;
+    animation-delay: 0.3s;
 }
 
 .side {
@@ -54,6 +54,7 @@
     height: 100%;
     @extend %images;
 }
+
 .top {
     transform: rotateX(90deg) translateZ(200px);
 }
@@ -64,7 +65,7 @@
 
 .left {
     background: #ffffff49;
-        transform: rotateY(-90deg) translateZ(200px);
+    transform: rotateY(-90deg) translateZ(200px);
 }
 
 .right {
@@ -79,6 +80,4 @@
     transform: rotateY(180deg) translateZ(200px) rotateZ(180deg);
 }
 
-.title {
-
-}
+.title {}

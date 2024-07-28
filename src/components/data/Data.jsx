@@ -21,7 +21,7 @@ const Data = ({ rotateX, rotateY }) => {
         } else if (rotateX === -5 && rotateY === 10) {
             return dataForMyWork.timer;
         } else if (rotateX === 170 && rotateY === 20) {
-            return dataForMyWork.todoList;
+            return dataForMyWork.quiz;
         } else {
             return 'No description available';
         }

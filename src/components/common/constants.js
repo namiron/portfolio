@@ -19,7 +19,8 @@ TECHNOLOGIES-SERVER:<br>
 node.js, express.js, mongoose, nodemon, uuid, bcryptjs, fs, path, express-fileupload, express-validator, jsonwebtoken`,
     timer: `One of the most popular projects is Timer.<br><br>
 TECHNOLOGIES: React.js, TypeScript, node.js, react-icons, sass, scss, vite-technologies`,
-    todoList: 'todoList',
+    quiz: `A very common element found on 85% of websites and applications is an integral part of gathering information and building a suitable interface for the client.<br><br>
+TECHNOLOGIES: React.js, TypeScript, Sass, Hooks`,
 }
 
 
