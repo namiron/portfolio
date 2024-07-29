@@ -7,6 +7,7 @@ import { HELLO_WORLD, LOCATION, MY_NAME } from '../common/constants';
 const Photo = () => {
 
     //-----------------------------
+    const [hasAnimated, setHasAnimated] = React.useState(false);
     const photoAnimation = {
         hidden: { opacity: 0 },
         visible: custom => ({
@@ -17,12 +18,17 @@ const Photo = () => {
             },
         }),
     };
+    const handleAnimationComplete = () => {
+        setHasAnimated(true);
+    };
     //-----------------------------
 
     return (
         <motion.div
             initial='hidden'
-            whileInView='visible'
+            animate={hasAnimated ? 'visible' : undefined}
+            whileInView={!hasAnimated ? 'visible' : undefined}
+            onAnimationComplete={handleAnimationComplete}
             custom={1}
             delay={3}
             className={photoStyles.photoContainer}

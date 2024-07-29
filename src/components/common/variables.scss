@@ -7,7 +7,7 @@ $mainColor: #F79E1B;
 $cartTextColor: #686868;
 $containerHome: 1440px;
 $ContainerNavigation: 1440px;
-
+$ContainerBigScreen: 1650px;
 $textColor: #fff;
 
 $bgColor: rgb(48, 46, 46);
@@ -18,7 +18,7 @@ $bgColor: rgb(48, 46, 46);
 
 %wrapper {
   @extend %displayFlexDirection;
-  height: 100vh;
+
   overflow-x: hidden;
 }
 
@@ -59,7 +59,7 @@ $bgColor: rgb(48, 46, 46);
 }
 
 %containerHome {
-  @media (min-width:1920px) {
+  @media (min-width:1919px) {
     max-width: none;
     margin: 0 auto;
     padding-left: 20px;
@@ -67,14 +67,15 @@ $bgColor: rgb(48, 46, 46);
   }
 
   @media (max-width:1920px) {
-    max-width: $containerHome;
+    max-width: $ContainerBigScreen;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
 
   }
+                
 
-  @media (max-width:768px) {
+                                @media (max-width:767px) {
     padding-left: 10px;
     padding-right: 10px;
   }

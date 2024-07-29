@@ -1,39 +1,28 @@
 import React from 'react'
-import safari from '../../image/safari.png'
-import sueno from '../../image/sueno.png'
-import timer from '../../image/timer.png'
-import chat from '../../image/chat.png'
-import quiz from '../../image/quiz.png'
 import listStyles from './styles/list.module.scss'
+import { LINKS, IMAGE_ITEM, NAME_ITEM, dataForMyWork } from '../../common/constants'
+import Item from './item/Item'
+
+
 
 
 const List = () => {
-    return (
-        <ul className={listStyles.list} >
 
-            <li className={listStyles.items}>
-                <a href='https://namiron.github.io/Sueno/' target="_blank" className={listStyles.curtain}>Sueno</a>
-                <div><img className={listStyles.image} src={sueno} alt="" /></div>
-            </li>
-            <li className={listStyles.items}>
-                <a href='https://timer-lyart-seven.vercel.app/' target="_blank" className={listStyles.curtain}></a>
-                <div><img className={listStyles.image} src={timer} alt="" /></div>
-            </li>
-            <li className={listStyles.items}>
-                <a href='https://safari-theta.vercel.app/' target="_blank" className={listStyles.curtain}></a>
-                <div><img className={listStyles.image} src={safari} alt="" /></div>
-            </li>
-            <li className={listStyles.comingSoon}>
-                <a href='https://github.com/namiron/cloudStore_client' target="_blank" className={listStyles.coming}>coming soon</a>
-            </li>
-            <li className={listStyles.items}>
-                <a href='https://client-chat-seven.vercel.app/' target="_blank" className={listStyles.curtain}></a>
-                <div><img className={listStyles.image} src={chat} alt="" /></div>
-            </li>
-            <li className={listStyles.items}>
-                <a href='https://namiron.github.io/Sueno/' target="_blank" className={listStyles.coming}>
-                    <img className={listStyles.image} src={quiz} alt="" /></a>
-            </li>
+    //-----------------------------
+    const projects = Object.entries(dataForMyWork);
+    //-----------------------------
+
+    return (
+        <ul className={listStyles.list}>
+            {projects.map(([key, value], i) => (
+                <Item
+                    key={key}
+                    link={LINKS[i]}
+                    image={IMAGE_ITEM[i]}
+                    title={NAME_ITEM[i]}
+                    description={value}
+                />
+            ))}
         </ul>
     )
 }

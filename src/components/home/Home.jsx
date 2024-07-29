@@ -11,18 +11,23 @@ import Footer from '../footer/Footer'
 const Home = () => {
 
     return (
-        <main className={homeStyle.home}>
-            <div className={homeStyle.container}>
+        <div className={homeStyle.home}>
+            <main className={homeStyle.main}>
                 <div className={homeStyle.firstScreen}>
                     <Titles />
                     <Photo />
                 </div>
-                <About />
-                <Works />
+                <div className={homeStyle.aboutScreen}>
+                    <About />
+                </div>
+                <div className={homeStyle.worksScreen}>
+                    <Works />
+                </div>
+            </main>
+            <footer className={homeStyle.footerScreen}>
                 <Footer />
-            </div>
-
-        </main>
+            </footer>
+        </div>
     )
 }
 

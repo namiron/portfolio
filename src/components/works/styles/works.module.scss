@@ -11,19 +11,20 @@
 //-----------------------------------------styles
 
 .works {
+margin: 0 auto;
     transition: all 0.3s ease 0s;
-    height: 100%;
     perspective: 1000px;
-    @include adaptive-value('padding-bottom', 220, 100, 1920);
+
 }
 
 .wrapper {
     margin: 0 auto;
-    max-width: 900px;
+
 }
 
 .container {
     @extend %displayComplect;
+    @include adaptive-value('gap', 200, 100, 1920);
     padding: 40px 40px;
 
 }

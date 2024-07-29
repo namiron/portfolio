@@ -8,21 +8,28 @@
 //-----------------------------------------vars
 
 .contacts {
+    @include adaptive-value('padding-top', 20, 10, 1920);
     position: relative;
     width: 100%;
     z-index: 20;
 }
 
 .container {
-    @extend %container;
+    @extend %containerHome;
     padding-left: 0;
 }
 
 .list {
     @extend %display;
-    @include adaptive-value('gap', 10, 5, 1920);
+        @media (max-width:768px) {
+                justify-content: space-between;
+            }
 }
 
+.links {
+    @extend %display;
+    @include adaptive-value('gap', 15, 10, 1920);
+}
 .link {
     text-transform: uppercase;
     cursor: pointer;

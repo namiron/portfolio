@@ -14,16 +14,16 @@ const Data = ({ rotateX, rotateY }) => {
             return dataForMyWork.sueno;
         } else if (rotateX === 85 && rotateY === 10) {
             return dataForMyWork.safari;
-        } else if (rotateX === -10 && rotateY === -70) {
-            return dataForMyWork.onlineChat;
-        } else if (rotateX === -5 && rotateY === 100) {
-            return dataForMyWork.cloudStore;
         } else if (rotateX === -5 && rotateY === 10) {
             return dataForMyWork.timer;
+        } else if (rotateX === -5 && rotateY === 100) {
+            return dataForMyWork.cloudStore;
+        } else if (rotateX === -10 && rotateY === -70) {
+            return dataForMyWork.onlineChat;
         } else if (rotateX === 170 && rotateY === 20) {
             return dataForMyWork.quiz;
         } else {
-            return 'No description available';
+            return '';
         }
     };
 

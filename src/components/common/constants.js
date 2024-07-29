@@ -1,27 +1,59 @@
 
+import safari from '../image/safari.png'
+import sueno from '../image/sueno.png'
+import timer from '../image/timer.png'
+import chat from '../image/chat.png'
+import cloud_store from '../image/cloudstore.png'
+import quiz from '../image/quiz.png'
+
+export const timerLink = `https://timer-lyart-seven.vercel.app/`
+
+export const suenoLink = `https://namiron.github.io/Sueno/`
+
+export const safariLink = `https://safari-theta.vercel.app/`
+
+export const cloudStoreLink = `https://github.com/namiron/cloudStore_client`
+
+export const quizLink = `https://quiz-type-script-green.vercel.app/`
+
+export const chatLink = `https://github.com/namiron/client_chat`
+
+
+
+export const LINKS = [safariLink, suenoLink, timerLink, cloudStoreLink, chatLink, quizLink]
+
+export const IMAGE_ITEM = [safari, sueno, timer, cloud_store, chat, quiz]
+
+export const NAME_ITEM = [`safari`, `sueno`, `timer`, `Cloud Store`, `chat`, `quiz`]
+
 
 
 export const dataForMyWork = {
-    sueno: `Sueno is a project developed for commercial purposes to facilitate the sale of luxury real estate on the shores of Italy.<br><br>
-TECHNOLOGIES: HTML, SCSS, SASS, CSS, JavaScript`,
-    safari: `Safari is an online store for selling various types of products. The website features filtering, login, registration,<br><br>
+    safari: `Safari is an online store for selling various types of products. The website features filtering, login, registration,
 REST API, the ability to create comments, like, dislike, and rating.<br><br>
-TECHNOLOGIES: React.js, axios, node.js, react-flickity-component, react-hook-form, @reduxjs/toolkit, react-redux, gh-pages, react-router-dom, react-icons, styled-components, react-select, sass, scss, MockAPI`,
-    onlineChat: `Online Chat is a project for creating a fully-featured communication and chat application.<br><br>
-TECHNOLOGIES-CLIENT:
-React.js, emoji-picker-react, @reduxjs/toolkit, redux, react-redux, createAsyncThunk, axios, react-router-dom, react-icons, sass, jsx, reselect, socket.io-client, web-vitals<br><br>
-TECHNOLOGIES-SERVER: node.js, cors, express, nodemon, socket.io`,
-    cloudStore: `Cloud Store is a project similar in functionality to Google Cloud for storing and retrieving data.<br><br>
-This is a full-stack M.E.R.N. stack application with features for uploading, storing, downloading, various content views (list, row, 4x4 group), filtering, searching, navigation, creation, and deletion. The server-client communication is based on REST API technology and is connected to MongoDB. The server side is implemented using express.js.<br><br>
-TECHNOLOGIES-CLIENT:<br>
-React.js, TypeScript, @reduxjs/toolkit, redux, react-redux, rtk query, createAsynkThunk, axios, react-router-dom, react-icons, sass, jsx, vite<br><br>
-TECHNOLOGIES-SERVER:<br>
-node.js, express.js, mongoose, nodemon, uuid, bcryptjs, fs, path, express-fileupload, express-validator, jsonwebtoken`,
+<span>React.js</span> <span>axios</span> <span>node.js</span> <span>react-flickity-component</span> <span>react-hook-form</span> <span>@reduxjs/toolkit</span>
+<span>react-redux</span> <span>react-router-dom</span> <span>react-icons</span> <span>styled-components</span> <span>react-select</span> <span>sass</span> <span>scss</span> <span>MockAPI</span>`,
+
+    sueno: `Sueno is a project developed for commercial purposes to facilitate the sale of luxury real estate on the shores of Spain.<br><br>
+<span>HTML</span> <span>SCSS</span> <span>SASS</span> <span>CSS</span> <span>JavaScript</span>`,
+
     timer: `One of the most popular projects is Timer.<br><br>
-TECHNOLOGIES: React.js, TypeScript, node.js, react-icons, sass, scss, vite-technologies`,
+<span>React.js</span> <span>TypeScript</span> <span>node.js</span> <span>react-icons</span> <span>sass</span> <span>scss</span> <span>vite-technologies</span>`,
+
+    cloudStore: `Cloud Store is a project similar in functionality to Google Cloud for storing and retrieving data.<br>
+This is a full-stack M.E.R.N. stack application with features for uploading, storing, downloading,
+various content views (list, row, 4x4 group), filtering, searching, navigation,
+creation, and deletion. The server-client communication is based on REST API technology and is connected to MongoDB. The server side is implemented using express.js.<br><br>
+<span>React.js</span> <span>TypeScript</span> <span>@reduxjs/toolkit</span> <span>redux</span> <span>react-redux</span> <span>rtk query</span> <span>createAsynkThunk</span> <span>axios</span> <span>react-router-dom</span> <span>react-icons</span> <span>sass</span> <span>jsx</span> <span>vite</span>
+<span>node.js</span> <span>express.js</span> <span>mongoose</span> <span>nodemon</span> <span>uuid</span> <span>bcryptjs</span> <span>fs</span> <span>path</span> <span>express-fileupload</span> <span>express-validator</span> <span>jsonwebtoken</span>`,
+
+    onlineChat: `Online Chat is a project for creating a fully-featured communication and chat application.<br><br>
+<span>React.js</span> <span>emoji-picker-react</span> <span>@reduxjs/toolkit</span> <span>redux</span> <span>react-redux</span> <span>createAsyncThunk</span> <span>axios</span> <span>react-router-dom</span> <span>react-icons</span> <span>sass</span> <span>jsx</span> <span>reselect</span> <span>socket.io-client</span> <span>web-vitals</span>
+<span>node.js</span> <span>cors</span> <span>express</span> <span>nodemon</span> <span>socket.io</span>`,
+
     quiz: `A very common element found on 85% of websites and applications is an integral part of gathering information and building a suitable interface for the client.<br><br>
-TECHNOLOGIES: React.js, TypeScript, Sass, Hooks`,
-}
+<span>React.js</span> <span>TypeScript</span> <span>Sass</span> <span>Hooks</span>`,
+};
 
 
 export const HELLO_WORLD = '<HELLO WORLD/>'
@@ -34,9 +66,10 @@ export const MY_NAME = 'ALEXANDER SAMSONOV'
 
 export const TITLE = `Full stack developer`
 
-export const SUB_TITLE = `A young and promising Full Stack Developer with experience in React.js, TypeScript, Node.js,
- Express, and MongoDB. Specializes in M.E.R.N. stack development, possessing deep knowledge and skills in creating efficient and
- scalable web applications. Constantly improving and striving for new achievements in the field of web development.`
+
+export const SUB_TITLE = `Promising Full Stack developer with three years of experience working with M.E.R.N. stack
+{React.js, TypeScript, NPM, Node.js,
+ Express.js and MongoDB} We are constantly improving and striving for new achievements in the field of web development.`
 
 export const BIG_TITLE = `Have a project in mind?`
 

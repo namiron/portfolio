@@ -9,39 +9,47 @@
 
 
 //-----------------------------------------styles
+
 .heading {
-    @include adaptive-value('padding-top', 20, 10, 1920);
+    position: relative;
+        z-index: -1;
     @extend %displayFlexDirection;
-    @include adaptive-value('gap', 20, 10, 1920);
+    gap: 20px;
     align-items: flex-end;
     margin-left: auto;
-    max-width: 650px;
+    max-width: 750px;
     transform: translateX();
 
+    @include adaptive-value('padding-bottom', 40, 20, 1440);
     @media (max-width:768px) {
         max-width: none;
+        align-items: flex-start;
+            text-align: left;
     }
 }
 
 .title {
-    @include adaptive-value(' margin-top', -30, 0, 1920);
     text-align: right;
     text-transform: uppercase;
-    @include adaptive-font(70, 40, 1440);
-
+    font-size: 120px;
+        line-height: 1;
     @media (max-width:768px) {
+        @include adaptive-font(120, 40, 1220);
         text-align: left;
     }
 }
 
 .subTitle {
-    max-width: 450px;
+    max-width: 590px;
     text-align: right;
-
+    font-size: 14px;
+        text-transform: uppercase;
     @media (max-width:768px) {
-        max-width: none;
-        text-align: left;
+        text-transform: capitalize;
+            text-align: left;
+            align-self: flex-start;
     }
+                                                        
 }
 
 //--------------------------------heading

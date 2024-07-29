@@ -15,6 +15,7 @@ const Contents = () => {
         <div className={styleContents.contacts}>
             <div className={styleContents.container}>
                 <ul className={styleContents.list}>
+                    <div className={styleContents.links}>
                     <ScrollLink activeClass="active"
                         to="about"
                         spy={true}
@@ -28,6 +29,8 @@ const Contents = () => {
                         spy={true}
                         smooth={true}
                         duration={500} className={styleContents.link}>contacts</ScrollLink>
+                    </div>
+
                     <div className={styleContents.naw}>
                         <Theme />
                         <Audio />

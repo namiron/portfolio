@@ -10,7 +10,6 @@
 
 //-----------------------------------------styles
 .photoContainer {
-    @include adaptive-value('margin-top', -1, 30, 1440);
 }
 
 .helloWorld {
@@ -33,7 +32,6 @@
     &::after {
         content: '';
         position: absolute;
-
         top: 10%;
         left: 0%;
         width: 10px;

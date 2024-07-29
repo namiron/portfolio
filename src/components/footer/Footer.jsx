@@ -2,11 +2,13 @@ import React from 'react'
 import footerStyles from './styles/footer.module.scss'
 import { Element } from 'react-scroll';
 import { motion } from 'framer-motion'
-import { BIG_TITLE, DESINER, GITHUB, GMAIL, LINKEDIN, MY_KISKA } from '../common/constants';
+import { BIG_TITLE, GITHUB, GMAIL, LINKEDIN } from '../common/constants';
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Footer = () => {
     //----------------------------------
+    const [hasAnimated, setHasAnimated] = React.useState(false);
+
     const titleFooter = {
         hidden: {
             x: 100,
@@ -22,13 +24,17 @@ const Footer = () => {
         }),
 
     }
-
+    const handleAnimationComplete = () => {
+        setHasAnimated(true);
+    };
     //----------------------------------
 
     return (
-        <motion.footer
+        <motion.div
             initial='hidden'
-            whileInView='visible'
+            animate={hasAnimated ? 'visible' : undefined}
+            whileInView={!hasAnimated ? 'visible' : undefined}
+            onAnimationComplete={handleAnimationComplete}
             className={footerStyles.footer}>
             <div className={footerStyles.container}>
                 <Element name="contacts" className={footerStyles.heading}>
@@ -49,7 +55,7 @@ const Footer = () => {
                 </motion.div>
             </div>
 
-        </motion.footer>
+        </motion.div>
     )
 }
 

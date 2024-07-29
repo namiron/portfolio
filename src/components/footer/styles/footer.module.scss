@@ -10,9 +10,7 @@
 
 //-----------------------------------------styles
 
-.footer {
-    @include adaptive-value('padding-bottom', 25, 10, 1440);
-}
+
 
 .container {
     @extend %displayFlexDirection;
@@ -24,10 +22,14 @@
 
 .bigText {
     position: relative;
+    max-width: 966px;
     z-index: -1;
-    @include adaptive-font(130, 60, 1440);
+font-size: 100px;
     text-transform: uppercase;
     text-align: center;
+    @media (max-width:768px) {
+            @include adaptive-font(100, 60, 1440);
+        }
 }
 
 .mail {
@@ -37,9 +39,12 @@
 .gmail {
     position: relative;
     z-index: 3;
-    @include adaptive-font(30, 15, 1440);
+    font-size: 30px;
     text-decoration: underline;
     text-transform: uppercase;
+    @media (max-width:768px) {
+            @include adaptive-font(30, 15, 1440);
+        }
 }
 
 .links {

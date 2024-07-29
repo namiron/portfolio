@@ -12,11 +12,19 @@
 
 .content {
     position: relative;
+    max-width: 900px;
 }
 
 .description {
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
+    span {
+            display: inline-block;
+            @include adaptive-value('padding', 5, 2, 1440);
+            @include adaptive-value('margin', 5, 2, 1440);
+            border-radius: 10px;
+            border: 1px solid;
+        }
 }
 
 .description.exiting {

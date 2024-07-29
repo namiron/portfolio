@@ -14,13 +14,13 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    // Добавляем правило @typescript-eslint/no-unused-vars
+
     '@typescript-eslint/no-unused-vars': [
       'warn',
       {
-        vars: 'all', // Проверяем все переменные
-        args: 'none', // Не проверяем параметры функций
-        ignoreRestSiblings: true, // Игнорируем остаточные операторы
+        vars: 'all',
+        args: 'none',
+        ignoreRestSiblings: true,  
       },
     ],
   },
