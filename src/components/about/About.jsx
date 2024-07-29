@@ -49,7 +49,7 @@ const About = () => {
                 <br />
                 Continuously improves in development by learning to work with new modules<DiNpm className={aboutStyles.image} />
                 in conjunction with <FaReact className={aboutStyles.image} />
-                <br />
+
                 I consider my desire for <FaCode className={aboutStyles.image} /> self-improvement to be one of my strengths,
                 always ready for new challenges and opportunities for professional growth.
             </Element>

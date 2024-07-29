@@ -12,32 +12,38 @@
 .home {
 @extend %wrapper;
 }
+.header {
+    @include adaptive-value('padding-left', 20, 10, 1440);
+    @include adaptive-value('padding-right', 20, 10, 1440);
+}
 
 .main {
+    @extend %displayFlexDirection;
+        justify-content: space-between;
     @include adaptive-value('padding-left', 20, 10, 1440);
     @include adaptive-value('padding-right', 20, 10, 1440);
         @include adaptive-value('padding-bottom', 50, 25, 1440);
 }
 
 .firstScreen {
+    @extend %displayFlexDirection;
     height: 100vh;
+        justify-content: space-between;
+            @include adaptive-value('margin-bottom', 300, 100, 1920);
     }
  .aboutScreen {
-     @include adaptive-value('padding-top', 50, 25, 1440);
-     @include adaptive-value('padding-bottom', 50, 25, 1440);
     @extend %displayCenter;
-    height: 100vh;
+    @include adaptive-value('margin-bottom', 300, 100, 1920);
     }
     
 .worksScreen {
-    @include adaptive-value('padding-top', 50, 25, 1440);
-        @include adaptive-value('padding-bottom', 50, 25, 1440);
+
         @extend %display;
 }
     
 .footerScreen {
-            @include adaptive-value('padding-top', 50, 25, 1440);
-                @include adaptive-value('padding-bottom', 50, 25, 1440);
+    @include adaptive-value('padding-top', 160, 80, 1440);
+        @include adaptive-value('padding-bottom', 160, 80, 1440);
             @extend %displayCenter;
-            height: 100vh;
+            
             }

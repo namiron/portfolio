@@ -9,24 +9,25 @@
 
 
 //-----------------------------------------styles
-.photoContainer {
-}
+.photo {
+    @extend %displayFlexDirection;
+    justify-content: end;
 
-.helloWorld {
-    @include adaptive-value('padding-bottom', 15, 10, 1440);
+    @include adaptive-value('padding-bottom', 50, 25, 1440);
 }
 
 .heading {
-    display: flex;
-    justify-content: space-between;
-    max-width: 450px;
+    @extend %displayComplect;
+        max-width: 320px;
+        @include adaptive-value('padding-bottom', 15, 10, 1440);
+    
+        .helloWorld {}
 }
 
 .location {
     position: relative;
     text-transform: uppercase;
     padding-left: 15px;
-
     &::after {
         content: '';
         position: absolute;
@@ -40,28 +41,18 @@
 
 }
 
-.contentBox {
-    display: flex;
-    align-items: flex-end;
-    @include adaptive-value('gap', 10, 5, 1440);
-
-    @media (max-width:768px) {
-        align-items: flex-start;
-
-        flex-direction: column;
-    }
+.content {
+    @extend %display;
+    align-items: end;
 }
 
-.imageContainer {
-display: flex;
-    align-items: baseline;
-    position: relative;
-    z-index: 3;
+.image {
     max-width: 320px;
     @extend %images;
 }
 
 .name {
+    flex: 1 1 auto;
     line-height: 1;
     text-transform: uppercase;
     @include adaptive-font(50, 25, 1440);

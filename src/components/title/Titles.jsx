@@ -30,7 +30,6 @@ const Titles = () => {
 
     return (
         <>
-            <Contents />
             <motion.article
                 initial='hidden'
                 animate={hasAnimated ? 'visible' : undefined}

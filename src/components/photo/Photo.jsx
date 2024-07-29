@@ -31,7 +31,7 @@ const Photo = () => {
             onAnimationComplete={handleAnimationComplete}
             custom={1}
             delay={3}
-            className={photoStyles.photoContainer}
+            className={photoStyles.photo}
         >
             <div className={photoStyles.heading}>
                 <h3 className={photoStyles.helloWorld}>{HELLO_WORLD}</h3>
@@ -39,11 +39,11 @@ const Photo = () => {
 
             </div>
 
-            <div className={photoStyles.contentBox}>
+            <div className={photoStyles.content}>
                 <motion.article
                     custom={3}
                     variants={photoAnimation}
-                    className={photoStyles.imageContainer}>
+                    className={photoStyles.image}>
                     <img src={myFace} alt="my_face" />
                 </motion.article>
                 <motion.h2

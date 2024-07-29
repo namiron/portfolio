@@ -5,6 +5,7 @@ import Titles from '../title/Titles'
 import Photo from '../photo/Photo'
 import About from '../about/About'
 import Footer from '../footer/Footer'
+import Contents from '../contacts/Contents'
 
 
 
@@ -12,6 +13,9 @@ const Home = () => {
 
     return (
         <div className={homeStyle.home}>
+            <header className={homeStyle.header}>
+                <Contents />
+            </header>
             <main className={homeStyle.main}>
                 <div className={homeStyle.firstScreen}>
                     <Titles />
