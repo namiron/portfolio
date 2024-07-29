@@ -10,15 +10,10 @@
 
 //-----------------------------------------styles
 .photoContainer {
-    margin-top: -150px;
-    
-        @media (max-width:968px) {
-            margin-top: 0px;
-        }
 }
 
 .helloWorld {
-    @include adaptive-value('padding-bottom', 10, 5, 1440);
+    @include adaptive-value('padding-bottom', 15, 10, 1440);
 }
 
 .heading {

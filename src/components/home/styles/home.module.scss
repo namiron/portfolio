@@ -16,24 +16,30 @@
 .main {
     @include adaptive-value('padding-left', 20, 10, 1440);
     @include adaptive-value('padding-right', 20, 10, 1440);
-    
+        @include adaptive-value('padding-bottom', 50, 25, 1440);
 }
 
 .firstScreen {
-    @include adaptive-value('margin-bottom', 100, 50, 1440);
+    @include adaptive-value('padding-bottom', 50, 25, 1440);
     }
         .aboutScreen {
+            @include adaptive-value('padding-top', 50, 25, 1440);
+                @include adaptive-value('padding-bottom', 50, 25, 1440);
+                height: 100%;
             @extend %displayCenter;
-            height: 70vh;
+
         }
     
-        .worksScreen {
-            @include adaptive-value('margin-bottom', 100, 50, 1440);
-            display: flex;
-            align-items: center;
+.worksScreen {
+    @include adaptive-value('padding-top', 50, 25, 1440);
+        @include adaptive-value('padding-bottom', 50, 25, 1440);
+        @extend %display;
+        height: 100%;
         }
     
         .footerScreen {
+            @include adaptive-value('padding-top', 50, 25, 1440);
+                @include adaptive-value('padding-bottom', 50, 25, 1440);
             @extend %displayCenter;
-        height: 100vh;
+        height: 100%;
         }
