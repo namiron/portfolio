@@ -16,23 +16,24 @@
 .main {
     @include adaptive-value('padding-left', 20, 10, 1440);
     @include adaptive-value('padding-right', 20, 10, 1440);
+    
 }
 
 .firstScreen {
-    height: 100vh;
+    @include adaptive-value('margin-bottom', 100, 50, 1440);
     }
         .aboutScreen {
             @extend %displayCenter;
-            height: 100vh;
+            height: 70vh;
         }
     
         .worksScreen {
-    
+            @include adaptive-value('margin-bottom', 100, 50, 1440);
             display: flex;
             align-items: center;
         }
     
         .footerScreen {
             @extend %displayCenter;
-            height: 100vh;
+        height: 100vh;
         }

@@ -19,8 +19,7 @@
     margin-left: auto;
     max-width: 750px;
     transform: translateX();
-
-    @include adaptive-value('padding-bottom', 40, 20, 1440);
+    padding-bottom: 50px;
     @media (max-width:768px) {
         max-width: none;
         align-items: flex-start;
