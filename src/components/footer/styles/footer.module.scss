@@ -40,7 +40,7 @@ font-size: 100px;
     position: relative;
     z-index: 3;
     font-size: 30px;
-    text-decoration: underline;
+    @extend %linkUserButtons;
     text-transform: uppercase;
     @media (max-width:768px) {
             @include adaptive-font(30, 15, 1440);
@@ -55,10 +55,12 @@ font-size: 100px;
 }
 
 .github {
+    @extend %linkUserButtons;
     @extend %display;
 }
 
 .linkedin {
+    @extend %linkUserButtons;
     padding-left: 10px;
     @extend %display;
 }

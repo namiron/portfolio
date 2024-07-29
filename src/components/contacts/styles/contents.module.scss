@@ -29,10 +29,12 @@
 .links {
     @extend %display;
     @include adaptive-value('gap', 15, 10, 1920);
+
 }
 .link {
     text-transform: uppercase;
     cursor: pointer;
+    @extend %linkUserButtons;
 }
 
 .naw {
