@@ -32,7 +32,7 @@ export const dataForMyWork = {
     safari: `Safari is an online store for selling various types of products. The website features filtering, login, registration,
 REST API, the ability to create comments, like, dislike, and rating.<br><br>
 <span>react.js</span> <span>axios</span> <span>node.js</span> <span>react-flickity-component</span> <span>react-hook-form</span> <span>@reduxjs/toolkit</span>
-<span>react-redux</span> <span>react-router-dom</span> <span>react-icons</span> <span>styled-components</span> <span>react-select</span> <span>sass</span> <span>scss</span> <span>MockAPI</span>`,
+<span>react-redux</span> <span>react-router-dom</span> <span>react-icons</span> <span>styled-components</span> <span>react-select</span> <span>sass</span> <span>scss</span> <span>mockAPI</span>`,
 
     sueno: `Sueno is a project developed for commercial purposes to facilitate the sale of luxury real estate on the shores of Spain.<br><br>
 <span>html</span> <span>scss</span> <span>sass</span> <span>css</span> <span>javaScript</span>`,
@@ -52,7 +52,7 @@ creation, and deletion. The server-client communication is based on REST API tec
 <span>node.js</span> <span>cors</span> <span>express</span> <span>nodemon</span> <span>socket.io</span>`,
 
     quiz: `A very common element found on 85% of websites and applications is an integral part of gathering information and building a suitable interface for the client.<br><br>
-<span>react.js</span> <span>typeScript</span> <span>sass</span> <span>Hooks</span>`,
+<span>react.js</span> <span>typeScript</span> <span>sass</span> <span>hooks</span>`,
 };
 
 
