@@ -15,8 +15,7 @@
 }
 
 .container {
-    @extend %containerHome;
-    padding-left: 0;
+@include adaptive-value('padding-right', 20, 10, 1440);
 }
 
 .list {
