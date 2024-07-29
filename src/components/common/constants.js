@@ -3,7 +3,7 @@ import safari from '../image/safari.png'
 import sueno from '../image/sueno.png'
 import timer from '../image/timer.png'
 import chat from '../image/chat.png'
-import cloud_store from '../image/cloudstore.png'
+import cloud_store from '../image/cloud-storage.jpg'
 import quiz from '../image/quiz.png'
 
 export const timerLink = `https://timer-lyart-seven.vercel.app/`
@@ -35,7 +35,7 @@ REST API, the ability to create comments, like, dislike, and rating.<br><br>
 <span>react-redux</span> <span>react-router-dom</span> <span>react-icons</span> <span>styled-components</span> <span>react-select</span> <span>sass</span> <span>scss</span> <span>MockAPI</span>`,
 
     sueno: `Sueno is a project developed for commercial purposes to facilitate the sale of luxury real estate on the shores of Spain.<br><br>
-<span>HTML</span> <span>SCSS</span> <span>SASS</span> <span>CSS</span> <span>javaScript</span>`,
+<span>html</span> <span>scss</span> <span>sass</span> <span>css</span> <span>javaScript</span>`,
 
     timer: `One of the most popular projects is Timer.<br><br>
 <span>react.js</span> <span>TypeScript</span> <span>node.js</span> <span>react-icons</span> <span>sass</span> <span>scss</span> <span>vite-technologies</span>`,

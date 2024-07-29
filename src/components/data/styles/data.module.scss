@@ -17,11 +17,11 @@
 
 .description {
     opacity: 1;
+    
     transition: opacity 0.5s ease-in-out;
     span {
-            display: inline-block;
-            @include adaptive-value('padding', 5, 2, 1440);
-            @include adaptive-value('margin', 5, 2, 1440);
+            display: block;
+                padding: 3px 5px;
             border-radius: 10px;
             border: 1px solid;
         }
