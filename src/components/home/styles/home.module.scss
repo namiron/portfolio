@@ -20,26 +20,24 @@
 }
 
 .firstScreen {
-    @include adaptive-value('padding-bottom', 50, 25, 1440);
+    height: 100vh;
     }
-        .aboutScreen {
-            @include adaptive-value('padding-top', 50, 25, 1440);
-                @include adaptive-value('padding-bottom', 50, 25, 1440);
-                height: 100%;
-            @extend %displayCenter;
-
-        }
+ .aboutScreen {
+     @include adaptive-value('padding-top', 50, 25, 1440);
+     @include adaptive-value('padding-bottom', 50, 25, 1440);
+    @extend %displayCenter;
+    height: 100vh;
+    }
     
 .worksScreen {
     @include adaptive-value('padding-top', 50, 25, 1440);
         @include adaptive-value('padding-bottom', 50, 25, 1440);
         @extend %display;
-        height: 100%;
-        }
+}
     
-        .footerScreen {
+.footerScreen {
             @include adaptive-value('padding-top', 50, 25, 1440);
                 @include adaptive-value('padding-bottom', 50, 25, 1440);
             @extend %displayCenter;
-        height: 100%;
-        }
+            height: 100vh;
+            }
