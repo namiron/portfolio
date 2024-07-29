@@ -30,6 +30,9 @@
     height: 100vh;
         justify-content: space-between;
             @include adaptive-value('margin-bottom', 300, 100, 1920);
+            @media (max-width:768px) {
+                    justify-content: center;
+                }
     }
  .aboutScreen {
     @extend %displayCenter;

@@ -18,11 +18,10 @@
     align-items: flex-end;
     margin-left: auto;
     max-width: 750px;
-    transform: translateX();
-    padding-bottom: 50px;
     @media (max-width:768px) {
         max-width: none;
-        align-items: flex-start;
+        padding-bottom: 20px;
+            align-items: center;
             text-align: left;
     }
 }
@@ -33,7 +32,7 @@
     font-size: 100px;
         line-height: 1;
     @media (max-width:768px) {
-        @include adaptive-font(100, 40, 1220);
+        @include adaptive-font(100, 30, 1220);
         text-align: left;
     }
 }
@@ -44,7 +43,7 @@
     font-size: 14px;
         text-transform: uppercase;
     @media (max-width:768px) {
-        text-transform: capitalize;
+        text-transform: none;
             text-align: left;
             align-self: flex-start;
     }

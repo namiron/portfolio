@@ -67,9 +67,7 @@ export const MY_NAME = 'ALEXANDER SAMSONOV'
 export const TITLE = `Full stack developer`
 
 
-export const SUB_TITLE = `Promising Full Stack Developer with three years of experience working with the M.E.R.N. stack
- (React.js, TypeScript, NPM, Node.js,
- Express.js, and MongoDB).
+export const SUB_TITLE = `Promising Full Stack Developer with three years of experience working
   Constantly improving and striving for new achievements in the field of web development.`
 
 export const BIG_TITLE = `Have a project in mind?`

@@ -12,16 +12,17 @@
 .photo {
     @extend %displayFlexDirection;
     justify-content: end;
-
     @include adaptive-value('padding-bottom', 50, 25, 1440);
+
 }
 
 .heading {
     @extend %displayComplect;
+    padding: 10px 0;
         max-width: 320px;
-        @include adaptive-value('padding-bottom', 15, 10, 1440);
-    
-        .helloWorld {}
+        @media (max-width:768px) {
+                max-width: 280px;
+            }
 }
 
 .location {
@@ -43,12 +44,20 @@
 
 .content {
     @extend %display;
+    gap: 20px;
     align-items: end;
+    @media (max-width:768px) {
+            flex-direction: column;
+            align-items: start;
+        }
 }
 
 .image {
     max-width: 320px;
     @extend %images;
+    @media (max-width:768px) {
+            max-width: 280px;
+        }
 }
 
 .name {
@@ -56,8 +65,10 @@
     line-height: 1;
     text-transform: uppercase;
     @include adaptive-font(50, 25, 1440);
+
     max-width: 215px;
-    @media (max-width:768px) {
+    @media (max-width:991px) {
+            @include adaptive-value('padding-bottom', 30, 0, 1440);
         max-width: none;
     }
 }
