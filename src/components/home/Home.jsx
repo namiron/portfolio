@@ -10,11 +10,20 @@ import Contents from '../contacts/Contents'
 
 
 const Home = () => {
+    //--------------------------------------------------
+    const [theme, setTheme] = React.useState('dark')
+
+    const toggleSetTheme = () => setTheme(theme === 'dark' ? 'light' : 'dark')
+
+    React.useEffect(() => {
+        document.body.setAttribute('data-theme', theme)
+    }, [theme])
+    //--------------------------------------------------
 
     return (
         <div className={homeStyle.home}>
             <header className={homeStyle.header}>
-                <Contents />
+                <Contents theme={theme} toggleSetTheme={toggleSetTheme} />
             </header>
             <main className={homeStyle.main}>
                 <div className={homeStyle.firstScreen}>
@@ -22,7 +31,7 @@ const Home = () => {
                     <Photo />
                 </div>
                 <div className={homeStyle.aboutScreen}>
-                    <About />
+                    <About theme={theme} />
                 </div>
                 <div className={homeStyle.worksScreen}>
                     <Works />

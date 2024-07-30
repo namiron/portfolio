@@ -18,8 +18,6 @@ export const quizLink = `https://quiz-type-script-green.vercel.app/`
 
 export const chatLink = `https://github.com/namiron/client_chat`
 
-
-
 export const LINKS = [safariLink, suenoLink, timerLink, cloudStoreLink, chatLink, quizLink]
 
 export const IMAGE_ITEM = [safari, sueno, timer, cloud_store, chat, quiz]

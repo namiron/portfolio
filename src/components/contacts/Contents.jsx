@@ -6,7 +6,7 @@ import Audio from '../Audio/Audio';
 
 
 
-const Contents = () => {
+const Contents = ({ theme, toggleSetTheme }) => {
     //---------------------------
 
     //---------------------------
@@ -32,7 +32,7 @@ const Contents = () => {
                     </div>
 
                     <div className={styleContents.naw}>
-                        <Theme />
+                        <Theme theme={theme} toggleSetTheme={toggleSetTheme} />
                         <Audio />
                     </div>
 
