@@ -27,6 +27,16 @@ const About = ({ theme }) => {
         setHasAnimated(true);
     };
 
+    const aboutStyle = theme === 'light' ? {
+        background: 'rgb(48, 46, 46)',
+        color: '#d9d9d9'
+
+    } : {
+        background: '#d9d9d9',
+        color: 'rgb(48, 46, 46)'
+    };
+
+
     //------------------------------------
 
     return (
@@ -39,13 +49,7 @@ const About = ({ theme }) => {
             variants={about}
             className={aboutStyles.aboutWrapper}
         >
-            <Element name='about' className={aboutStyles.about} style={theme === 'light' ? {
-                background: 'rgb(48, 46, 46)',
-                color: '#d9d9d9'
-            } : {
-                background: '#d9d9d9',
-                color: 'rgb(48, 46, 46)'
-            }}>
+            <Element name='about' className={aboutStyles.about} style={aboutStyle}>
                 <div className={aboutStyles.blockFirst}>
                     <p className={aboutStyles.textFirst}>
                         Hi!I am a Full Stack developer specializing in
