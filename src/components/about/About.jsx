@@ -69,8 +69,7 @@ const About = ({ theme }) => {
                         <img src={in_freelance} alt="in_freelance" />
                     </div>
                     <p className={aboutStyles.secondText}>
-                        For the past five years,
-                        I've immersed myself in this field, including three years of freelance experience.
+                        I've three years of freelance experience.
                         I've collaborated with friends and freelancers globally, including in Israel, working on projects using Figma and GitHub.
                         What drives me is a constant pursuit of self-improvement and growth.
                     </p>

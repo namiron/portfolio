@@ -28,7 +28,7 @@ font-size: 100px;
     text-transform: uppercase;
     text-align: center;
     @media (max-width:768px) {
-            @include adaptive-font(100, 60, 1440);
+            @include adaptive-font(100, 50, 1440);
         }
 }
 
