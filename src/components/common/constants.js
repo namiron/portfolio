@@ -30,28 +30,29 @@ export const dataForMyWork = {
     safari: `Safari is an online store for selling various types of products. The website features filtering, login, registration,
 REST API, the ability to create comments, like, dislike, and rating.<br><br>
 <span>react.js</span> <span>axios</span> <span>node.js</span> <span>react-flickity-component</span> <span>react-hook-form</span> <span>@reduxjs/toolkit</span>
-<span>react-redux</span> <span>react-router-dom</span> <span>react-icons</span> <span>styled-components</span> <span>react-select</span> <span>sass</span> <span>scss</span> <span>mockAPI</span>`,
+<span>react-redux</span> <span>react-router-dom</span> <span>react-icons</span> <span>styled-components</span> <span>react-select</span> <span>sass</span> <span>scss</span> <span>mockapi</span>`,
 
     sueno: `Sueno is a project developed for commercial purposes to facilitate the sale of luxury real estate on the shores of Spain.<br><br>
-<span>html</span> <span>scss</span> <span>sass</span> <span>css</span> <span>javaScript</span>`,
+<span>html</span> <span>scss</span> <span>sass</span> <span>css</span> <span>javascript</span>`,
 
     timer: `One of the most popular projects is Timer.<br><br>
-<span>react.js</span> <span>TypeScript</span> <span>node.js</span> <span>react-icons</span> <span>sass</span> <span>scss</span> <span>vite-technologies</span>`,
+<span>react.js</span> <span>typescript</span> <span>node.js</span> <span>react-icons</span> <span>sass</span> <span>scss</span> <span>vite-technologies</span>`,
 
     cloudStore: `Cloud Store is a project similar in functionality to Google Cloud for storing and retrieving data.<br>
 This is a full-stack M.E.R.N. stack application with features for uploading, storing, downloading,
 various content views (list, row, 4x4 group), filtering, searching, navigation,
 creation, and deletion. The server-client communication is based on REST API technology and is connected to MongoDB. The server side is implemented using express.js.<br><br>
-<span>react.js</span> <span>TypeScript</span> <span>@reduxjs/toolkit</span> <span>redux</span> <span>react-redux</span> <span>rtk query</span> <span>createAsynkThunk</span> <span>axios</span> <span>react-router-dom</span> <span>react-icons</span> <span>sass</span> <span>jsx</span> <span>vite</span>
+<span>react.js</span> <span>typescript</span> <span>@reduxjs/toolkit</span> <span>redux</span> <span>react-redux</span> <span>rtk query</span> <span>createasynkthunk</span> <span>axios</span> <span>react-router-dom</span> <span>react-icons</span> <span>sass</span> <span>jsx</span> <span>vite</span>
 <span>node.js</span> <span>express.js</span> <span>mongoose</span> <span>nodemon</span> <span>uuid</span> <span>bcryptjs</span> <span>fs</span> <span>path</span> <span>express-fileupload</span> <span>express-validator</span> <span>jsonwebtoken</span>`,
 
     onlineChat: `Online Chat is a project for creating a fully-featured communication and chat application.<br><br>
-<span>Rract.js</span> <span>emoji-picker-react</span> <span>@reduxjs/toolkit</span> <span>redux</span> <span>react-redux</span> <span>createAsyncThunk</span> <span>axios</span> <span>react-router-dom</span> <span>react-icons</span> <span>sass</span> <span>jsx</span> <span>reselect</span> <span>socket.io-client</span> <span>web-vitals</span>
+<span>react.js</span> <span>emoji-picker-react</span> <span>@reduxjs/toolkit</span> <span>redux</span> <span>react-redux</span> <span>createasyncthunk</span> <span>axios</span> <span>react-router-dom</span> <span>react-icons</span> <span>sass</span> <span>jsx</span> <span>reselect</span> <span>socket.io-client</span> <span>web-vitals</span>
 <span>node.js</span> <span>cors</span> <span>express</span> <span>nodemon</span> <span>socket.io</span>`,
 
     quiz: `A very common element found on 85% of websites and applications is an integral part of gathering information and building a suitable interface for the client.<br><br>
-<span>react.js</span> <span>typeScript</span> <span>sass</span> <span>hooks</span>`,
+<span>react.js</span> <span>typescript</span> <span>sass</span> <span>hooks</span>`,
 };
+
 
 
 export const HELLO_WORLD = '<HELLO WORLD/>'

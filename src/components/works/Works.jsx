@@ -11,7 +11,7 @@ import List from './list/List';
 
 const Works = () => {
     //-----------------------------------
-    const [rotateX, setRotateX] = React.useState(-5)
+    const [rotateX, setRotateX] = React.useState(85)
     const [rotateY, setRotateY] = React.useState(10)
 
     //-----------------------------------

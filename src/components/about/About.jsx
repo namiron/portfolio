@@ -52,11 +52,12 @@ const About = ({ theme }) => {
             <Element name='about' className={aboutStyles.about} style={aboutStyle}>
                 <div className={aboutStyles.blockFirst}>
                     <p className={aboutStyles.textFirst}>
-                        Hi!I am a Full Stack developer specializing in
-                        building web applications and websites using React.js.
+                        Hi! I am a Full Stack Developer specializing in building
+                        web applications and websites using React.js.
                         I moved to Israel in 2016, where I learned Hebrew.
-                        I started learning web development in 2019 and quickly discovered my passion for it.
+                        I started learning web development in 2021 and quickly discovered my passion for it.
                         I paid attention to development even while in the army.
+
                     </p>
                     <div className={aboutStyles.imgFirst}>
                         <img src={inarmy} alt="inarmy" />
@@ -68,7 +69,8 @@ const About = ({ theme }) => {
                         <img src={in_freelance} alt="in_freelance" />
                     </div>
                     <p className={aboutStyles.secondText}>
-                        For the past five years, I've immersed myself in this field, including three years of freelance experience.
+                        For the past five years,
+                        I've immersed myself in this field, including three years of freelance experience.
                         I've collaborated with friends and freelancers globally, including in Israel, working on projects using Figma and GitHub.
                         What drives me is a constant pursuit of self-improvement and growth.
                     </p>
