@@ -55,7 +55,7 @@ const About = ({ theme }) => {
                         Hi! I am a Full Stack Developer specializing in building
                         web applications and websites using React.js.
                         I moved to Israel in 2016, where I learned Hebrew.
-                        I started learning web development in 2021 and quickly discovered my passion for it.
+                        I started learning web development in 2019 and quickly discovered my passion for it.
                         I paid attention to development even while in the army.
 
                     </p>
