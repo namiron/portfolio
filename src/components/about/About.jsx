@@ -69,11 +69,10 @@ Hi! I am a front-end developer specializing in building web
                         <img src={in_freelance} alt="in_freelance" />
                     </div>
                     <p className={aboutStyles.secondText}>
-Since graduating from university,
-                        I have gained experience working both in a company and as a freelancer. 
-                        I have collaborated with diverse teams and utilized various technologies to accomplish project goals.
+Since graduating, I have gained extensive experience, including working as a freelancer.
+                        I have collaborated with various teams and utilized different technologies to achieve project goals. 
                         Although my formal education was completed some time ago,
-                        I remain committed to continuous growth, regularly enhancing my skills through courses and ongoing learning.
+                        I continue to strive for growth by regularly upgrading my skills through courses and ongoing learning.
                     </p>
                 </div>
 
