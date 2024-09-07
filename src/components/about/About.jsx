@@ -52,11 +52,11 @@ const About = ({ theme }) => {
             <Element name='about' className={aboutStyles.about} style={aboutStyle}>
                 <div className={aboutStyles.blockFirst}>
                     <p className={aboutStyles.textFirst}>
-                        Hi! I am a Full Stack Developer specializing in building
-                        web applications and websites using React.js.
-                        I moved to Israel in 2016, where I learned Hebrew.
-                        I started learning web development in 2019 and quickly discovered my passion for it.
-                        I paid attention to development even while in the army.
+Hi! I am a front-end developer specializing in building web 
+                        applications and websites using React.js.
+                        I started learning web development at university.
+                        Out of all the subjects I studied, web development was my favorite,
+                        so I decided to continue learning this field.
 
                     </p>
                     <div className={aboutStyles.imgFirst}>
@@ -69,10 +69,11 @@ const About = ({ theme }) => {
                         <img src={in_freelance} alt="in_freelance" />
                     </div>
                     <p className={aboutStyles.secondText}>
-            I have three years of freelancing experience. I have collaborated
-            with friends and freelancers around the world, including in Israel,
-            on projects using a variety of technologies. I am driven by a
-            constant desire for self-improvement and growth.
+Since graduating from university,
+                        I have gained experience working both in a company and as a freelancer. 
+                        I have collaborated with diverse teams and utilized various technologies to accomplish project goals.
+                        Although my formal education was completed some time ago,
+                        I remain committed to continuous growth, regularly enhancing my skills through courses and ongoing learning.
                     </p>
                 </div>
 
