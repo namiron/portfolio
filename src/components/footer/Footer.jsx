@@ -29,6 +29,8 @@ const Footer = () => {
     };
     //----------------------------------
 
+
+
     return (
         <motion.div
             initial='hidden'
