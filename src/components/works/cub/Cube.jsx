@@ -6,7 +6,7 @@ import timer from "../../image/timer.png";
 import chat from "../../image/chat.png";
 import quiz from "../../image/quiz.png";
 import { motion } from "framer-motion";
-import cloud_store from "../../image/cloud-storage.jpg";
+import staff from "../../image/staff-login.png";
 
 const Cube = ({ rotateX, rotateY }) => {
   return (
@@ -47,12 +47,12 @@ const Cube = ({ rotateX, rotateY }) => {
           <img className={cubStyles.image} src={timer} alt="" />
         </a>
         <a
-          href="https://github.com/namiron/cloudStore_client"
+          href="https://staff-client-beta.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className={`${cubStyles.side} ${cubStyles.left}`}
         >
-          <img className={cubStyles.image} src={cloud_store} alt="" />
+          <img className={cubStyles.image} src={staff} alt="" />
         </a>
         <a
           href="https://github.com/namiron/client_chat"
