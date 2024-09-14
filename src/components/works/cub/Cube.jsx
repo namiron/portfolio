@@ -29,7 +29,7 @@ const Cube = ({ rotateX, rotateY }) => {
                 <a href='https://safari-phi.vercel.app/' target="_blank" rel="noopener noreferrer" className={`${cubStyles.side} ${cubStyles.button} `}><img className={cubStyles.image} src={safari} alt="" /></a>
                 <a href='https://timer-lyart-seven.vercel.app/' target="_blank" rel="noopener noreferrer" className={`${cubStyles.side} ${cubStyles.front} `}><img className={cubStyles.image} src={timer} alt="" /></a>
                 <a href='https://github.com/namiron/cloudStore_client' target="_blank" rel="noopener noreferrer" className={`${cubStyles.side} ${cubStyles.left}`}><img className={cubStyles.image} src={cloud_store} alt="" /></a>
-                <a href='https://github.com/namiron/client_chat' target="_blank" rel="noopener noreferrer" className={`${cubStyles.side} ${cubStyles.right}`}><img className={cubStyles.image} src={chat} alt="" /></a>
+                <a href='https://client-chat-seven.vercel.app/' target="_blank" rel="noopener noreferrer" className={`${cubStyles.side} ${cubStyles.right}`}><img className={cubStyles.image} src={chat} alt="" /></a>
                 <a href='https://quiz-type-script-green.vercel.app/' target="_blank" rel="noopener noreferrer" className={`${cubStyles.side} ${cubStyles.back}`}><img className={cubStyles.image} src={quiz} alt="" /></a>
             </div>
         </motion.div>
