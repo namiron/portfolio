@@ -2,7 +2,7 @@ import React from "react";
 import navStyle from "./styles/navigation.module.scss";
 
 const Navigation = ({ setRotateY, setRotateX }) => {
-  const [activeIndex, setActiveIndex] = React.useState(null);
+  const [activeIndex, setActiveIndex] = React.useState(2);
 
   const changeRotate = (x, y, index) => {
     setRotateX(x);
@@ -22,17 +22,17 @@ const Navigation = ({ setRotateY, setRotateX }) => {
       <ul className={navStyle.list}>
         <li
           className={navStyle.item}
-          style={getItemStyle(3)}
-          onClick={() => changeRotate(-5, 100, 3)}
-        >
-          staff
-        </li>
-        <li
-          className={navStyle.item}
           style={getItemStyle(2)}
           onClick={() => changeRotate(-10, -70, 2)}
         >
           onlineChat
+        </li>
+        <li
+          className={navStyle.item}
+          style={getItemStyle(3)}
+          onClick={() => changeRotate(-5, 100, 3)}
+        >
+          staff
         </li>
         <li
           className={navStyle.item}
