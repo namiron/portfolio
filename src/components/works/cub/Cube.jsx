@@ -5,8 +5,8 @@ import cloud_store from "../../image/cloud-storage.jpg";
 import timer from "../../image/timer.png";
 import chat from "../../image/chat.png";
 import quiz from "../../image/quiz.png";
-import { motion } from "framer-motion";
 import staff from "../../image/staff-login.png";
+import { motion } from "framer-motion";
 
 const Cube = ({ rotateX, rotateY }) => {
   return (
