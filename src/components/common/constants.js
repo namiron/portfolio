@@ -38,24 +38,25 @@ export const NAME_ITEM = [
 ];
 
 export const dataForMyWork = {
+  staff: `Staff is a web application for managing employee data, built using the M.E.R.N stack. It features user authorization, including registration and login, as well as employee management with capabilities for creating, editing, and deleting records. The application boasts a simple and user-friendly interface designed with Ant Design.<br><br>
+  <span>react.js</span> <span>typescript</span> <span>javascript</span> <span>@reduxjs/toolkit</span> <span>redux</span> <span>react-redux</span> <span>rtk query</span> <span>react-router-dom</span> <span>ant design</span> <span>sass</span> <span>vite</span>
+  <span>node.js</span> <span>express.js</span> <span>prisma</span> <span>nodemon</span> <span>bcryptjs</span> <span>jsonwebtoken</span>`,
+
+  onlineChat: `Online Chat is a project for creating a fully-featured communication and chat application.<br><br>
+  <span>react.js</span> <span>emoji-picker-react</span> <span>@reduxjs/toolkit</span> <span>redux</span> <span>react-redux</span> <span>createasyncthunk</span> <span>axios</span> <span>react-router-dom</span> <span>react-icons</span> <span>sass</span> <span>jsx</span> <span>reselect</span> <span>socket.io-client</span> <span>web-vitals</span>
+  <span>node.js</span> <span>cors</span> <span>express</span> <span>nodemon</span> <span>socket.io</span>`,
+
+  Cloud_Store: `Cloud Store is a cloud storage that provides users with functionality for creating, storing, downloading and deleting files. This project is implemented using the MERN technology stack. The project is designed to demonstrate the capabilities of working with file systems, as well as developing cloud services from scratch using modern web technologies.<br><br>
+  <span>react.js</span> <span>typescript</span> <span>javascript</span> <span>@reduxjs/toolkit</span> <span>redux</span> <span>react-redux</span> <span>rtk query</span> <span>react-router-dom</span> <span>eslint</span> <span>sass</span> <span>vite</span>
+  <span>node.js</span> <span>express.js</span> <span>express-fileupload</span> <span>axios</span> <span>express-validator</span> <span>path</span> <span>fs</span> <span>nodemon</span> <span>uuid</span> <span>bcryptjs</span> <span>jsonwebtoken</span>`,
+
+  timer: `One of the most popular projects is Timer.<br><br>
+  <span>react.js</span> <span>typescript</span> <span>node.js</span> <span>react-icons</span> <span>sass</span> <span>scss</span> <span>vite-technologies</span>`,
+
   safari: `Safari is an online store for selling various types of products. The website features filtering, login, registration,
 REST API, the ability to create comments, like, dislike, and rating.<br><br>
 <span>react.js</span> <span>axios</span> <span>node.js</span> <span>react-flickity-component</span> <span>react-hook-form</span> <span>@reduxjs/toolkit</span>
 <span>react-redux</span> <span>react-router-dom</span> <span>react-icons</span> <span>styled-components</span> <span>react-select</span> <span>sass</span> <span>scss</span> <span>mockapi</span>`,
-
-  sueno: `Sueno is a project developed for commercial purposes to facilitate the sale of luxury real estate on the shores of Spain.<br><br>
-<span>html</span> <span>scss</span> <span>sass</span> <span>css</span> <span>javascript</span>`,
-
-  timer: `One of the most popular projects is Timer.<br><br>
-<span>react.js</span> <span>typescript</span> <span>node.js</span> <span>react-icons</span> <span>sass</span> <span>scss</span> <span>vite-technologies</span>`,
-
-  staff: `Staff is a web application for managing employee data, built using the M.E.R.N stack. It features user authorization, including registration and login, as well as employee management with capabilities for creating, editing, and deleting records. The application boasts a simple and user-friendly interface designed with Ant Design.<br><br>
-<span>react.js</span> <span>typescript</span> <span>javascript</span> <span>@reduxjs/toolkit</span> <span>redux</span> <span>react-redux</span> <span>rtk query</span> <span>react-router-dom</span> <span>ant design</span> <span>sass</span> <span>vite</span>
-<span>node.js</span> <span>express.js</span> <span>prisma</span> <span>nodemon</span> <span>bcryptjs</span> <span>jsonwebtoken</span>`,
-
-  onlineChat: `Online Chat is a project for creating a fully-featured communication and chat application.<br><br>
-<span>react.js</span> <span>emoji-picker-react</span> <span>@reduxjs/toolkit</span> <span>redux</span> <span>react-redux</span> <span>createasyncthunk</span> <span>axios</span> <span>react-router-dom</span> <span>react-icons</span> <span>sass</span> <span>jsx</span> <span>reselect</span> <span>socket.io-client</span> <span>web-vitals</span>
-<span>node.js</span> <span>cors</span> <span>express</span> <span>nodemon</span> <span>socket.io</span>`,
 
   quiz: `A very common element found on 85% of websites and applications is an integral part of gathering information and building a suitable interface for the client.<br><br>
 <span>react.js</span> <span>typescript</span> <span>sass</span> <span>hooks</span>`,

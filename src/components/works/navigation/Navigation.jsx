@@ -22,17 +22,10 @@ const Navigation = ({ setRotateY, setRotateX }) => {
       <ul className={navStyle.list}>
         <li
           className={navStyle.item}
-          style={getItemStyle(0)}
-          onClick={() => changeRotate(85, 10, 0)}
+          style={getItemStyle(3)}
+          onClick={() => changeRotate(-5, 100, 3)}
         >
-          safari
-        </li>
-        <li
-          className={navStyle.item}
-          style={getItemStyle(1)}
-          onClick={() => changeRotate(-100, 20, 1)}
-        >
-          sueno
+          staff
         </li>
         <li
           className={navStyle.item}
@@ -43,10 +36,17 @@ const Navigation = ({ setRotateY, setRotateX }) => {
         </li>
         <li
           className={navStyle.item}
-          style={getItemStyle(3)}
-          onClick={() => changeRotate(-5, 100, 3)}
+          style={getItemStyle(1)}
+          onClick={() => changeRotate(-100, 20, 1)}
         >
-          staff
+          Cloud Store
+        </li>
+        <li
+          className={navStyle.item}
+          style={getItemStyle(0)}
+          onClick={() => changeRotate(85, 10, 0)}
+        >
+          safari
         </li>
         <li
           className={navStyle.item}

@@ -1,7 +1,7 @@
 import React from "react";
 import cubStyles from "./styles/cub.module.scss";
 import safari from "../../image/safari.png";
-import sueno from "../../image/sueno.png";
+import cloud_store from "../../image/cloud-storage.jpg";
 import timer from "../../image/timer.png";
 import chat from "../../image/chat.png";
 import quiz from "../../image/quiz.png";
@@ -23,30 +23,6 @@ const Cube = ({ rotateX, rotateY }) => {
         }}
       >
         <a
-          href="https://namiron.github.io/Sueno/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`${cubStyles.side} ${cubStyles.top}`}
-        >
-          <img className={cubStyles.image} src={sueno} alt="" />
-        </a>
-        <a
-          href="https://safari-phi.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`${cubStyles.side} ${cubStyles.button} `}
-        >
-          <img className={cubStyles.image} src={safari} alt="" />
-        </a>
-        <a
-          href="https://timer-lyart-seven.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`${cubStyles.side} ${cubStyles.front} `}
-        >
-          <img className={cubStyles.image} src={timer} alt="" />
-        </a>
-        <a
           href="https://staff-client-beta.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
@@ -61,6 +37,30 @@ const Cube = ({ rotateX, rotateY }) => {
           className={`${cubStyles.side} ${cubStyles.right}`}
         >
           <img className={cubStyles.image} src={chat} alt="" />
+        </a>
+        <a
+          href="https://safari-phi.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`${cubStyles.side} ${cubStyles.button} `}
+        >
+          <img className={cubStyles.image} src={safari} alt="" />
+        </a>
+        <a
+          href="https://github.com/namiron/cloudStore_client"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`${cubStyles.side} ${cubStyles.top}`}
+        >
+          <img className={cubStyles.image} src={cloud_store} alt="" />
+        </a>
+        <a
+          href="https://timer-lyart-seven.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`${cubStyles.side} ${cubStyles.front} `}
+        >
+          <img className={cubStyles.image} src={timer} alt="" />
         </a>
         <a
           href="https://quiz-type-script-green.vercel.app/"

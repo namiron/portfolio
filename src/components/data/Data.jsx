@@ -11,7 +11,7 @@ const Data = ({ rotateX, rotateY }) => {
 
     const descriptionForMyWorks = () => {
         if (rotateX === -100 && rotateY === 20) {
-            return dataForMyWork.sueno;
+            return dataForMyWork.Cloud_Store;
         } else if (rotateX === 85 && rotateY === 10) {
             return dataForMyWork.safari;
         } else if (rotateX === -5 && rotateY === 10) {
