@@ -69,10 +69,10 @@ export const width = window.screen.width;
 
 export const MY_NAME = "ALEXANDER SAMSONOV";
 
-export const TITLE = `Full stack developer`;
+export const TITLE = `Front End developer`;
 
 export const SUB_TITLE = `
-Promising Full Stack Developer with three years of experience, constantly improving and striving for new achievements in the field of web development.`;
+I am a promising Front End Developer with a goal to continuously improve and strive for new achievements in the field of web development.`;
 
 export const BIG_TITLE = `Have a project in mind?`;
 
