@@ -55,7 +55,7 @@ const Cube = ({ rotateX, rotateY }) => {
           <img className={cubStyles.image} src={staff} alt="" />
         </a>
         <a
-          href="https://github.com/namiron/client_chat"
+          href="https://client-chat-seven.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className={`${cubStyles.side} ${cubStyles.right}`}
