@@ -26,8 +26,8 @@
 .imgSecond {
     border-radius: 15px;
     overflow: hidden;
-    max-width: 300px;
-    max-height: 200px;
+    max-width: 320px;
+    max-height: 150;
     @extend %images;
     object-fit: contain;
     @media (max-width:768px) {
@@ -65,11 +65,11 @@ margin: 0 auto;
     }
     
     .textFirst {
-        max-width: 400px;
+        max-width: 420px;
     }
     
     .secondText {
-        max-width: 300px;
+        max-width: 320px;
         line-height: 1.3;
         @media (max-width:768px) {
                 max-width: 400px;
@@ -81,7 +81,7 @@ margin: 0 auto;
         @include adaptive-value('padding', 30, 10, 1440);
         max-width: 1190px;
         text-align: left;
-        @include adaptive-value('gap', 150, 20, 1440);
+        @include adaptive-value('gap', 100, 20, 1440);
         @include adaptive-font(20, 14, 1440);
         border-radius: 15px;
         font-size: 16px;
