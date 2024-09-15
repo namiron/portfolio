@@ -39,7 +39,7 @@ const Navigation = ({ setRotateY, setRotateX }) => {
           style={getItemStyle(1)}
           onClick={() => changeRotate(-100, 20, 1)}
         >
-          Cloud Store
+          CloudStore
         </li>
         <li
           className={navStyle.item}
