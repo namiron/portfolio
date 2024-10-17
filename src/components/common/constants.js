@@ -1,4 +1,5 @@
 import safari from "../image/safari.png";
+import store from '../image/cloud-storage.jpg'
 import sueno from "../image/sueno.png";
 import timer from "../image/timer.png";
 import chat from "../image/chat.png";
@@ -6,6 +7,8 @@ import staff from "../image/staff-login.png";
 import quiz from "../image/quiz.png";
 
 export const timerLink = `https://timer-lyart-seven.vercel.app/`;
+
+export const staffLink = `https://staff-client-beta.vercel.app/login`;
 
 export const suenoLink = `https://namiron.github.io/Sueno/`;
 
@@ -18,22 +21,22 @@ export const quizLink = `https://quiz-type-script-green.vercel.app/`;
 export const chatLink = `https://github.com/namiron/client_chat`;
 
 export const LINKS = [
-  safariLink,
-  suenoLink,
-  timerLink,
-  cloudStoreLink,
+  staffLink,
   chatLink,
+  cloudStoreLink,
+  timerLink,
+  safariLink,
   quizLink,
 ];
 
-export const IMAGE_ITEM = [safari, sueno, timer, staff, chat, quiz];
+export const IMAGE_ITEM = [staff, chat, store, timer, safari, quiz];
 
 export const NAME_ITEM = [
-  `safari`,
-  `sueno`,
-  `timer`,
-  `Cloud Store`,
+  `staff`,
   `chat`,
+  `Cloud Store`,
+  `timer`,
+  `safari`,
   `quiz`,
 ];
 
@@ -51,11 +54,11 @@ export const dataForMyWork = {
   <span>node.js</span> <span>express.js</span> <span>express-fileupload</span> <span>axios</span> <span>express-validator</span> <span>path</span> <span>fs</span> <span>nodemon</span> <span>uuid</span> <span>bcryptjs</span> <span>jsonwebtoken</span>`,
 
   timer: `One of the most popular projects is Timer.<br><br>
-  <span>react.js</span> <span>typescript</span> <span>node.js</span> <span>react-icons</span> <span>sass</span> <span>scss</span> <span>vite-technologies</span>`,
+  <span>react.js</span> <span>typescript</span> <span>react-icons</span> <span>sass</span> <span>scss</span>`,
 
   safari: `Safari is an online store for selling various types of products. The website features filtering, login, registration,
 REST API, the ability to create comments, like, dislike, and rating.<br><br>
-<span>react.js</span> <span>axios</span> <span>node.js</span> <span>react-flickity-component</span> <span>react-hook-form</span> <span>@reduxjs/toolkit</span>
+<span>react.js</span> <span>axios</span> <span>react-flickity-component</span> <span>react-hook-form</span> <span>@reduxjs/toolkit</span>
 <span>react-redux</span> <span>react-router-dom</span> <span>react-icons</span> <span>styled-components</span> <span>react-select</span> <span>sass</span> <span>scss</span> <span>mockapi</span>`,
 
   quiz: `A very common element found on 85% of websites and applications is an integral part of gathering information and building a suitable interface for the client.<br><br>
