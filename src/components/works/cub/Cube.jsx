@@ -2,7 +2,7 @@ import React from "react";
 import cubStyles from "./styles/cub.module.scss";
 import safari from "../../image/safari.png";
 import cloud_store from "../../image/cloud-storage.jpg";
-import timer from "../../image/timer.png";
+import extension from "../../image/extension.jpg";
 import chat from "../../image/chat.png";
 import quiz from "../../image/quiz.png";
 import staff from "../../image/staff-login.png";
@@ -55,12 +55,12 @@ const Cube = ({ rotateX, rotateY }) => {
           <img className={cubStyles.image} src={cloud_store} alt="" />
         </a>
         <a
-          href="https://timer-lyart-seven.vercel.app/"
+          href="https://github.com/namiron/Block_plagin_extension"
           target="_blank"
           rel="noopener noreferrer"
           className={`${cubStyles.side} ${cubStyles.front} `}
         >
-          <img className={cubStyles.image} src={timer} alt="" />
+          <img className={cubStyles.image} src={extension} alt="" />
         </a>
         <a
           href="https://quiz-type-script-green.vercel.app/"

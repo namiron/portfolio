@@ -25,42 +25,42 @@ const Navigation = ({ setRotateY, setRotateX }) => {
           style={getItemStyle(2)}
           onClick={() => changeRotate(-10, -70, 2)}
         >
-          onlineChat
+          Online Chat
         </li>
         <li
           className={navStyle.item}
           style={getItemStyle(3)}
           onClick={() => changeRotate(-5, 100, 3)}
         >
-          staff
+          Staff
         </li>
         <li
           className={navStyle.item}
           style={getItemStyle(1)}
           onClick={() => changeRotate(-100, 20, 1)}
         >
-          CloudStore
+          Cloud Store
         </li>
         <li
           className={navStyle.item}
           style={getItemStyle(0)}
           onClick={() => changeRotate(85, 10, 0)}
         >
-          safari
+          Safari
         </li>
         <li
           className={navStyle.item}
           style={getItemStyle(4)}
           onClick={() => changeRotate(-5, 10, 4)}
         >
-          timer
+          Chrome Extension
         </li>
         <li
           className={navStyle.item}
           style={getItemStyle(5)}
           onClick={() => changeRotate(170, 20, 5)}
         >
-          quiz
+          Quiz
         </li>
       </ul>
     </nav>

@@ -15,11 +15,11 @@ const Data = ({ rotateX, rotateY }) => {
         } else if (rotateX === 85 && rotateY === 10) {
             return dataForMyWork.safari;
         } else if (rotateX === -5 && rotateY === 10) {
-            return dataForMyWork.timer;
+            return dataForMyWork.Chrome_Extension;
         } else if (rotateX === -5 && rotateY === 100) {
             return dataForMyWork.staff;
         } else if (rotateX === -10 && rotateY === -70) {
-            return dataForMyWork.onlineChat;
+            return dataForMyWork.Online_Chat;
         } else if (rotateX === 170 && rotateY === 20) {
             return dataForMyWork.quiz;
         } else {
