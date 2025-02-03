@@ -54,10 +54,9 @@ const About = ({ theme }) => {
         <div className={aboutStyles.blockFirst}>
           <p className={aboutStyles.textFirst}>
             Hi! I am a front-end developer specializing in building web
-            applications and websites using React.js. I started learning web
-            development at university. Out of all the subjects I studied, web
-            development was my favorite, so I decided to continue learning this
-            field.
+            applications and websites using React.js. Out of all the subjects I
+            studied at university, web development was my favorite, so I decided
+            to continue studying this field.
           </p>
           <div className={aboutStyles.imgFirst}>
             <img src={inarmy} alt="inarmy" />
@@ -69,12 +68,10 @@ const About = ({ theme }) => {
             <img src={in_freelance} alt="in_freelance" />
           </div>
           <p className={aboutStyles.secondText}>
-            Since graduating, I have gained a lot of experience, including
-            working as a freelancer. I have collaborated with various teams and
-            used various technologies to achieve project goals. Although my
-            formal education was completed some time ago, I continue to strive
-            to grow by regularly upgrading my skills through courses and ongoing
-            learning.
+            Since then, I have gained a lot of experience. I have collaborated
+            with different teams and used different technologies to achieve the
+            project goals. However, I continue to strive to grow by regularly
+            upgrading my skills through courses and ongoing training.
           </p>
         </div>
       </Element>
