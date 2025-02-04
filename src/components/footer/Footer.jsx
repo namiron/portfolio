@@ -47,7 +47,7 @@ const Footer = () => {
                         <a href="https://github.com/namiron?tab=repositories"
                             target='blank' className={footerStyles.github}> <MdOutlineArrowOutward style={{ fontSize: '25px' }} /> {GITHUB}</a>
 
-                        <a href="https://www.linkedin.com/in/alexander-samsonov-60239a235/"
+                        <a href="http://linkedin.com/in/alex-samsonov-60239a235"
                             target='blank' className={footerStyles.linkedin}><MdOutlineArrowOutward style={{ fontSize: '25px' }} /> {LINKEDIN}</a>
                     </div>
                 </div>
